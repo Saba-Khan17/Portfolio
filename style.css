@@ -6,6 +6,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    font-size: 16px;        
+    line-height: 1.6;      
 }
 
 .container {
@@ -15,6 +18,7 @@ body {
 
 .container-center {
   max-width: 600px;
+   max-width: 90%;
   margin: auto;
   list-style-type: none;
   padding-bottom: 1rem;
@@ -30,6 +34,7 @@ body {
   text-decoration: none;
   padding: 0.5rem 1rem;
   color: var(--primary-color);
+  font-size: 1rem;
 }
 
 .link-primary {
@@ -66,7 +71,7 @@ body {
 
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .navigation .nav-pills {
@@ -83,12 +88,12 @@ body {
 
 .hero {
   padding: 2rem;
-
+  padding-top:2rem;
 }
 
 .hero .hero-heading {
   font-size: 2rem;
-  font-weight: 500rem;
+  font-weight: 350rem;
   color: grey;
   padding-top: 1rem;
   text-align: center;
@@ -101,7 +106,7 @@ body {
 /* <!--section--!>  */
 .section {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
   border-bottom-left-radius: 1rem;
 }
 
@@ -140,4 +145,20 @@ body {
 
 .project {
   text-align: center;
+  display: block;
+  max-width: 320px;
+  margin: auto;
+  word-wrap: break-word;
 }
+.project-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.project-buttons .link {
+  display: inline-block;
+  white-space: nowrap;
+}
+
